@@ -2,7 +2,6 @@
   <AboutPage />
   <div class="grid lg:grid-cols-2">
     <Card
-      class="lg:mr-4"
       style="background-color: hsla(152, 37%, 72%, 0.46)"
       title="About us"
       subtitle="Pharetra massa massa ultri."
@@ -10,7 +9,6 @@
       link="Read our story"
     />
     <Card
-      class="lg:ml-4 mb-8"
       style="background-color: hsla(46, 100%, 74%, 0.23)"
       title="Our offer"
       subtitle="Convallis a cras semper au."

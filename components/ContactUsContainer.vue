@@ -1,8 +1,8 @@
 <template>
-  <div class="bgImage h-screen text-white bg-no-repeat bg-cover pb-32 relative">
-    <div class="ml-8 lg:ml-12 top-1/4 lg:top-45 relative">
+  <div class="bgImage w-full text-white relative">
+    <div class="absolute bottom-14 left-14">
       <h5 class="font-bold">Contact us</h5>
-      <h2 class="text-4xl font-bold lg:text-5xl w-10/12 lg:w-2/4">
+      <h2 class="text-3xl font-bold lg:text-4xl w-10/12 lg:w-2/4">
         Euismod elementumnisi quis eleifend quam proin sagittis.
       </h2>
       <br />
@@ -15,10 +15,9 @@
         pharetra.
       </p>
       <br />
-      <a href="" class="relative -top-2"
-        >Contact us
-        <HelpersCssArrowYellow />
-      </a>
+      <a href="" class="font-bold bg-black text-white p-3 cursor-pointer"
+        >Contact us</a
+      >
     </div>
   </div>
 </template>
