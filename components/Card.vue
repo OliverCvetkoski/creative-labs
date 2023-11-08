@@ -11,7 +11,6 @@
       <br />
       <a href="" class="absolute left-60 md:left-3/4 top-80"
         >{{ link }} <br />
-        <CssArrowRed arrowColor="#3498db" />
       </a>
     </div>
   </div>
@@ -19,7 +18,6 @@
 
 <script>
 import CssArrow from "./helpers/CssArrow.vue";
-import CssArrowRed from "./helpers/CssArrowRed.vue";
 
 export default {
   props: {
@@ -28,6 +26,6 @@ export default {
     content: String,
     link: String,
   },
-  components: { CssArrow, CssArrowRed },
+  components: { CssArrow },
 };
 </script>
