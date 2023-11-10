@@ -1,5 +1,5 @@
 <template>
-  <div class="bgImage w-full text-white relative">
+  <div class="bgImage w-full text-white relative bg-no-repeat bg-cover">
     <div class="absolute bottom-14 left-14">
       <h5 class="font-bold">Contact us</h5>
       <h2 class="text-3xl font-bold lg:text-4xl w-10/12 lg:w-2/4">

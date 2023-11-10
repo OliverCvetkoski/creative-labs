@@ -1,5 +1,6 @@
 <template>
   <AboutPage />
+  <br />
   <div class="grid lg:grid-cols-2">
     <Card
       style="background-color: hsla(152, 37%, 72%, 0.46)"
@@ -16,6 +17,7 @@
       link="What we offer"
     />
   </div>
+  <br />
   <ContactUsContainer />
   <br />
   <JoinTeam />

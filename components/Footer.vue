@@ -30,12 +30,13 @@
         </div>
       </div>
     </div>
-
-    <div style="color: #a7a7a7" class="flex gap-3 p-3 w-fit">
-      © COPYRIGHT 2023 Oliver Cvetkoski. All rights reserved.
-      <div>
-        <a href="" class="underline">Privacy policy</a> |
-        <a href="" class="underline">Cookie policy</a>
+    <div class="flex justify-center">
+      <div style="color: #a7a7a7" class="md:flex gap-3 p-3 w-fit">
+        © COPYRIGHT 2023 Oliver Cvetkoski. All rights reserved.
+        <div class="flex justify-center gap-2">
+          <a href="" class="underline">Privacy policy</a> |
+          <a href="" class="underline">Cookie policy</a>
+        </div>
       </div>
     </div>
   </div>

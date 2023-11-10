@@ -1,10 +1,11 @@
 <template>
   <div
-    class="bgImage h-screen flex flex-col justify-between bg-no-repeat bg-cover"
+    class="bgImage flex flex-col justify-between bg-no-repeat bg-cover relative w-full"
   >
-    <NavBar />
-    <HelpersLogo />
-    <div class="m-8 lg:m-12 flex-none text-white w-10/12 lg:w-8/12">
+    <HamburgerMenu />
+    <div
+      class="flex-none text-white w-10/12 lg:w-8/12 p-8 absolute bottom-0 z-0"
+    >
       <h1 class="text-3xl font-bold lg:text-5xl">
         Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor
         incididunt.
@@ -24,5 +25,6 @@
 <style>
 .bgImage {
   background-image: url("../images/man.png");
+  height: 100vh;
 }
 </style>
